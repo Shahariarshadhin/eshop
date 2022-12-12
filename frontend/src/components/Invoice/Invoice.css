@@ -1,0 +1,33 @@
+.Invoice{
+    padding: 20px;
+    height: 100vh;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 30rem auto 30rem;
+}
+.grid_item{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* product table  */
+.productListTable{
+    margin-top: 20px;
+}
+.productListTable table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.productListTable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+.productListTable tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
